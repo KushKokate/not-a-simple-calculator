@@ -13,8 +13,8 @@ operations = {
   "*": multiply,
   "/": divide,
 }
-n1 = int(input("Enter the first value!: "))
-n2 = int(input("Enter the second value !: "))
+n1 = float(input("Enter the first value!: "))
+n2 = float(input("Enter the second value !: "))
 for i in operations:
   print(i)
 def calculator():
